@@ -1,0 +1,141 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar"></include>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/Sell_Book"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <EditText
+                    android:id="@+id/Sell_ISBN"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="ISBN"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/Sell_Title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Book Title" />
+
+                <EditText
+                    android:id="@+id/Sell_Author"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Book Author" />
+
+                <EditText
+                    android:id="@+id/Sell_Publisher"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Book Publisher" />
+
+                <EditText
+                    android:id="@+id/Sell_Edition"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Book Edition" />
+
+                <EditText
+                    android:id="@+id/Sell_Price"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Selling Price"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/Sell_Summary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:height="50dp"
+                    android:hint="Book Summary" />
+
+
+                <Spinner
+                    android:id="@+id/Sell_Category"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"></Spinner>
+
+                <Spinner
+                    android:id="@+id/Sell_Condition"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Book Condition"
+                    android:padding="10dp" />
+
+                <Spinner
+                    android:id="@+id/Sell_Location"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Item Location"
+                    android:padding="10dp" />
+
+                <RadioGroup
+                    android:id="@+id/Sell_ContactType"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Method              "/>
+
+                    <RadioButton
+                        android:id="@+id/Sell_R_Email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-Mail"
+                        android:checked="true"/>
+                    <RadioButton
+                        android:id="@+id/Sell_R_Phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/Sell_Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sell" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/leftDrawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+</android.support.v4.widget.DrawerLayout>

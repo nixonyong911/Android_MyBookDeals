@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">My Book Deals</string>
+    <string name="action_settings">Refresh</string>
+    <string name="search_hint">Title / ISBN / Author / Publisher</string>
+    <string name="facebook_app_id">494271900739621</string>
+    <string name="register"><u><b>Register Here</b></u></string>
+    <string-array name="tabs">
+        <item>Home</item>
+        <item>Categories</item>
+    </string-array>
+    <string-array name="leftDrawerLoggedIn">
+        <item>Advanced Search</item>
+        <item>View Account</item>
+        <item>Manage Book</item>
+        <item>Sell Book</item>
+    </string-array>
+    <string-array name="leftDrawerLoggedOut">
+        <item>Advanced Search</item>
+        <item>Sign In</item>
+        <item>Register</item>
+    </string-array>
+
+    <string-array name="accountInfo">
+        <item>Name</item>
+        <item>Email</item>
+        <item>Phone</item>
+        <item>Date of Birth</item>
+        <item>College</item>
+    </string-array>
+
+    <string-array name="categories_data">
+        <item>Arts and Photography</item>
+        <item>Biographies and Memoirs</item>
+        <item>Business and Investing</item>
+        <item>Children Books</item>
+        <item>Chinese Books</item>
+        <item>Comics and Graphic Novels</item>
+        <item>Computer and Technology</item>
+        <item>CookBooks, Food and Wine</item>
+        <item>Crafts, Hobbies and Home</item>
+        <item>Education and Reference</item>
+        <item>Health, Fitness and Dieting</item>
+        <item>History</item>
+        <item>Humor and Entertainment</item>
+        <item>Literature and Fiction</item>
+        <item>Magazines</item>
+        <item>Mystery,Thriller and Suspense</item>
+        <item>Parenting and Relationships</item>
+        <item>Politics and Social Sciences</item>
+        <item>Professional and Technical</item>
+        <item>Puzzles and Games</item>
+        <item>Rare and Collectible Books</item>
+        <item>Religion and Spirituality</item>
+        <item>Romance</item>
+        <item>Science and Math</item>
+        <item>Science Fiction and Fantasy</item>
+        <item>Self-Help</item>
+        <item>Sports and Outdoors</item>
+        <item>Teens</item>
+        <item>TextBooks</item>
+        <item>Travel</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="book_categories">
+        <item>Book Categories</item>
+        <item>Arts and Photography</item>
+        <item>Biographies and Memoirs</item>
+        <item>Business and Investing</item>
+        <item>Children Books</item>
+        <item>Chinese Books</item>
+        <item>Comics and Graphic Novels</item>
+        <item>Computer and Technology</item>
+        <item>CookBooks, Food and Wine</item>
+        <item>Crafts, Hobbies and Home</item>
+        <item>Education and Reference</item>
+        <item>Health, Fitness and Dieting</item>
+        <item>History</item>
+        <item>Humor and Entertainment</item>
+        <item>Literature and Fiction</item>
+        <item>Magazines</item>
+        <item>Mystery,Thriller and Suspense</item>
+        <item>Parenting and Relationships</item>
+        <item>Politics and Social Sciences</item>
+        <item>Professional and Technical</item>
+        <item>Puzzles and Games</item>
+        <item>Rare and Collectible Books</item>
+        <item>Religion and Spirituality</item>
+        <item>Romance</item>
+        <item>Science and Math</item>
+        <item>Science Fiction and Fantasy</item>
+        <item>Self-Help</item>
+        <item>Sports and Outdoors</item>
+        <item>Teens</item>
+        <item>TextBooks</item>
+        <item>Travel</item>
+    </string-array>
+
+    <string-array name="book_location">
+        <item>Location</item>
+        <item>Johor</item>
+        <item>Kedah</item>
+        <item>Kelantan</item>
+        <item>Kuala Lumpur</item>
+        <item>Melaka</item>
+        <item>Negeri Sembilan</item>
+        <item>Pahang</item>
+        <item>Penang</item>
+        <item>Perak</item>
+        <item>Perlis</item>
+        <item>Selangor</item>
+        <item>Sarawak</item>
+        <item>Sabah</item>
+        <item>Terengganu</item>
+        <item>Outside of Malaysia</item>
+    </string-array>
+
+    <string-array name="book_condition">
+        <item>Book Condition</item>
+        <item>New Book</item>
+        <item>Used - Excellent </item>
+        <item>Used - Good </item>
+        <item>Used - Acceptable </item>
+        <item>Used - Poor </item>
+    </string-array>
+
+
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_arts_and__photography">Arts and Photography</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_buy__book">Buy Book</string>
+    <string name="title_activity_sell__book">Sell Book</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_Sign_In">Sign In</string>
+    <string name="title_activity_biographies_and__memoirs">Biographies and Memoirs</string>
+    <string name="title_activity_business_and__investing">Business and Investing</string>
+    <string name="title_activity_children__books">Children Books</string>
+    <string name="title_activity_chinese__books">Chinese Books</string>
+    <string name="title_activity_travel">Travel</string>
+    <string name="title_activity_text_book">TextBook</string>
+    <string name="title_activity_teens">Teens</string>
+    <string name="title_activity_sports_and__outdoors">Sports and Outdoors</string>
+    <string name="title_activity_comics_and__graphic__novels">Comics and Graphic Novels</string>
+    <string name="title_activity_computer_and__technology">Computer and Technology</string>
+    <string name="title_activity_mysterey__thriller_and__suspense">Mysterey,Thriller and Suspense</string>
+    <string name="title_activity_science__fiction_and__fantasy">Science,Fiction and Fantasy</string>
+    <string name="title_activity_self__help">Self Help</string>
+    <string name="title_activity_romance">Romance</string>
+    <string name="title_activity_science_and__math">Science and Math</string>
+    <string name="title_activity_puzzles_and__games">Puzzles and Games</string>
+    <string name="title_activity_rare_and__collectible__books">Rare and Collectible Books</string>
+    <string name="title_activity_religion_and__spirituality">Religion and Spirituality</string>
+    <string name="title_activity_sign__in">Sign In</string>
+    <string name="title_activity_signed__in">Signed In</string>
+    <string name="title_activity_register2">register2</string>
+    <string name="title_activity_search_result">Result</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_view_book_details">Book Details</string>
+    <string name="title_activity_book_result">Book Result</string>
+    <string name="title_activity_book_categories">bookCategories</string>
+    <string name="title_activity_book_location">BookLocation</string>
+    <string name="title_activity_advanced_search">Advanced Search</string>
+    <string name="title_activity_view_account">View Account</string>
+    <string name="title_activity_edit_account">Edit Account</string>
+    <string name="title_activity_advanced_search_result">AdvancedSearchResult</string>
+    <string name="title_activity_manage_book">Manage Book</string>
+</resources>

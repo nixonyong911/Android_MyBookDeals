@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nixonyong911.mybookdeals.NavigationTab.Register"
+    tools:ignore="AppCompatResource">
+    <item
+        android:id="@+id/action_refresh"
+        android:showAsAction="ifRoom"
+        android:title="Refresh" />
+    <item
+        android:id="@+id/action_signOut"
+        android:showAsAction="ifRoom"
+        android:title="Sign Out" />
+</menu>

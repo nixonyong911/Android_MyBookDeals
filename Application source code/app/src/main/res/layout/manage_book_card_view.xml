@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookCardView"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="8dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/MB_Title"
+                android:paddingTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="title"
+                android:textSize="24sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/MB_Author"
+                android:layout_below="@+id/MB_Title"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:textSize="14sp"
+                android:text="title"
+                />
+
+            <ImageButton
+                android:id="@+id/MB_RemoveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_action_menu"
+                android:layout_alignParentRight="true"
+                android:layout_above="@+id/MB_View"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/MB_View"
+                android:textColor="@color/ColorPrimary"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                android:layout_below="@+id/MB_Title"
+                android:layout_alignParentRight="true"
+                android:textSize="14sp"
+                android:text="Interested"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

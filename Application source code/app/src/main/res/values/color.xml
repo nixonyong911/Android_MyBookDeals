@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#1565C0</color>
+    <color name="ColorPrimaryDark">#0D47A1</color>
+    <color name="tabsScrollColor">#FFFFFF</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorHighlight">#B6B6B6</color>
+
+</resources>
